@@ -1,7 +1,0 @@
-services:
-  ram-portfolio:
-    build: .
-    ports:
-      - "80:80"
-    container_name: ram-portfolio
-    restart: unless-stopped
